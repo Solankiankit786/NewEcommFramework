@@ -1,0 +1,29 @@
+[
+{
+   "name" : "anmol",
+   "email": "anmol123@gmail.com",
+   "password": "ankit",
+   "productName" : "Blue Shoes",
+   "firstName" : "anmol",
+   "lastName" : "kumar",
+   "country" : "India" ,
+   "address" : "Gagan Vihar",
+   "city" : "meerut",
+   "state": "Raj",
+   "pin" : 250001
+},
+{
+   "name" : "rohan",
+   "email": "rohan123@gmail.com",
+   "password": "rohit",
+   "productName" : "Basic Blue Jeans",
+   "firstName" : "rohan",
+   "lastName" : "kumar",
+   "country" : "India" ,
+   "address" : "Gagan Enclav",
+   "city" : "meerut",
+   "state": "Guj",
+   "pin" : "250001"
+}
+
+]
