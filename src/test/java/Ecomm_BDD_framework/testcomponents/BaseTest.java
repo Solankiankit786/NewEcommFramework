@@ -58,6 +58,7 @@ public class BaseTest extends DataReader {
 		}else if(browserName.equalsIgnoreCase("safari"))
 		{
 			driver = new SafariDriver();
+			driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
