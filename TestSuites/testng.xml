@@ -6,12 +6,12 @@
 </listeners>
   <test thread-count="5" name="Negative Scenerio">
     <classes>
-      <class name="Ecomm_framework.Tests.ErrorValidationTest"/>
+      <class name="Ecomm_BDD_framework.Tests.ErrorValidationTest"/>
     </classes>
   </test> <!-- Test -->
     <test thread-count="5" name="Positive Scenerio">
     <classes>
-      <class name="Ecomm_framework.Tests.SubmitOrderTest"/>
+      <class name="Ecomm_BDD_framework.Tests.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

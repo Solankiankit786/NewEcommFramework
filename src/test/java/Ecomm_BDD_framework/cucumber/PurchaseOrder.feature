@@ -3,6 +3,7 @@ Feature: Purchase the product from e-commerce website
 Background:
 Given I landed on ecomm website page
 
+@SubmitOrder
   Scenario Outline: Submit an order successfully
     Given User registers with name <name>, email <email> and password <password>
     When User adds product <productName> to the cart

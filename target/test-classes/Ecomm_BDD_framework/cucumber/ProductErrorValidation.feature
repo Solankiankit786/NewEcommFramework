@@ -3,6 +3,7 @@ Feature: Purchase the product from e-commerce website
 Background:
 Given I landed on ecomm website page
 
+@ErrorValidation
   Scenario Outline: verify for invalid product
     Given User registers with name <name>, email <email> and password <password>
     When User adds product <productName> to the cart
